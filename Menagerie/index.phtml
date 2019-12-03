@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ménagerie</title>
+</head>
+<body>
+	<table>
+		<?php 
+		foreach($menagerie->enclos as $enclos):?>
+			<tr>
+				<?= $enclos->name; ?>
+			</tr>		
+		<?php 
+		endforeach
+		;?>
+	</table>
+</body>
+</html>
